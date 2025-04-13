@@ -51,3 +51,10 @@ Run the script with python version ^3.13
 python manage.py runserver
 ```
 
+## API
+
+To get the pdf report:
+
+```
+/report/I-001/?start_date=2025-01-01&end_date=2025-01-31&pdf=true
+```
