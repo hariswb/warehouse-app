@@ -38,11 +38,10 @@ docker run -p 8000:8000 warehouse
 ```
 
 
-## Run with python or for development
-
+## Run with python
 Execute shell script to install python requirements and run the db migrations.
 
-Run the script with python version 3.13 on virtual environment.
+Run the script with python version ^3.13
 
 ```
 ./bootstrap
