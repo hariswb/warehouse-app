@@ -37,6 +37,8 @@ Run the docker instance
 docker run -p 8000:8000 warehouse
 ```
 
+API should be accessible from `http://127.0.0.1:8000`
+
 
 ## Run with python
 Execute shell script to install python requirements and run the db migrations.
@@ -52,6 +54,12 @@ python manage.py runserver
 ```
 
 ## API
+
+To get the pdf json report:
+
+```
+/report/I-001/?start_date=2025-01-01&end_date=2025-01-31
+```
 
 To get the pdf report:
 
